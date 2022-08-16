@@ -8,9 +8,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     // DANGER
     if(email ==='aa@bb.com' && password === 'secret'){
-        console.log('valid user')
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('invalid user')
+        alert('invalid user')
     }
 })
